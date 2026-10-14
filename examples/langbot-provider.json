@@ -1,0 +1,13 @@
+{
+  "keys": {
+    "openai": ["sk-你的Key"]
+  },
+  "requester": {
+    "openai-chat-completions": {
+      "base-url": "https://shannonapi.xyz/v1",
+      "args": {},
+      "timeout": 300
+    }
+  },
+  "model": "claude-sonnet-5-5"
+}

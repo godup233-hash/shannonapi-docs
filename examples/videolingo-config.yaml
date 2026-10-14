@@ -1,0 +1,10 @@
+# VideoLingo config.yaml — ShannonAPI 配置片段
+# 将本片段合并进 VideoLingo 项目根目录的 config.yaml
+# base_url 填到 /v1 为止，VideoLingo 自动拼接 /chat/completions
+
+api:
+  key: 'sk-你的Key'
+  base_url: 'https://shannonapi.xyz/v1'
+  model: 'claude-sonnet-5-5'
+  llm_support_json: false
+max_workers: 4

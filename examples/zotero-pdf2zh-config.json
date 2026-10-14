@@ -1,0 +1,12 @@
+{
+  "translators": [
+    {
+      "name": "openai",
+      "envs": {
+        "OPENAI_BASE_URL": "https://shannonapi.xyz/v1",
+        "OPENAI_API_KEY": "sk-你的Key",
+        "OPENAI_MODEL": "deepseek-v4-flash"
+      }
+    }
+  ]
+}
